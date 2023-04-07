@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar */
+.wrapper {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around; 
+  height: 70px;
+  align-items: center;
+  background-image: url(./image/dark.jpg);
+  width: 100vw;
+}
+.list-menu ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.list-menu ul li a:hover{
+  border: 2px solid orange;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.list-menu ul li{
+list-style: none;
+}
+.list-menu ul li{
+list-style: none;
+}
+.logo{
+  width: 50px;
+  border: 2px solid orange;
+  border-radius: 40px;
+}
+.list-menu ul {
+  display: flex;
+  gap: 20px;
+}
+/* banner */
+.banner-logo {
+  width: 100vw;
+  height: 50vh;
+}
+/* form style */
+.simple-interest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  background-image: url(./image/Tower.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 24px;
+}
+.simple-interest h1{
+  color: #eee;
+}
+input[type=number] {
+  width: 190px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.btn {
+ display: block;
+ padding: 10px;
+ margin-bottom: 15px;
+ font-weight: bolder;
+ font-size: 18px;
+ border: none;
+ border-radius: 10px;
+}
+.btn:hover {
+  background-color: #161032;
+  color: #ffffff;
+}
+h3{
+  color: #BD1E1E;
+}
+.result {
+  margin-top: 10px;
+  height: 100px;
+}
+span{
+color: #570000;
+}

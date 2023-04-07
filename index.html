@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Interest</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="wrapper">
+    <div class="image-wrapper">
+      <img src="./image/PolarisLogo.jpg" class="logo" alt="PolarisLogo">
+    </div>
+    <!-- list -->
+    <div class="list-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="https://www.investopedia.com/terms/s/simple_interest.asp#:~:text=Simple%20interest%20is%20the%20interest,grows%20over%20multiple%20payment%20periods.">About</a></li>
+        <li><a href="https://www.cuemath.com/commercial-math/simple-interest/">Formula</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- section banner -->
+   <div class="banner-section">
+     <section>
+        <img src="./image/business.jpg" alt="" class="banner-logo">
+     </section>
+   </div>
+   <!-- main  -->
+   <div class="simple-interest">
+    <h1>Calculate your simple interest</h1>
+     <form>
+      <label for="principal">
+       Principal
+      </label>
+      <!-- input -->
+      <input type="number" class="principal" >
+        <br>
+        <!-- rate -->
+        <label for="Rate">
+          Rate
+        </label>
+        <input type="number" class="rate">
+        <br>
+
+       <!-- Time -->
+       <label for="principal">
+        Interest
+       </label>
+       <!-- Time -->
+       <input type="number" class="time"> 
+       <br>
+       <button type="button" onclick="calculatePRI()" class="btn">Calcute simple interest</button>
+     </form>
+
+     <!-- Result -->
+     <div class="result">
+     </div>
+
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
